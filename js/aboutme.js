@@ -26,7 +26,6 @@ $(document).ready(function(){
 
 	});
 
-	/*
 	$(".p1").click(function(){
 		
 		$(".a1").animate({left:"10vw",top:"33vh"},1500);
@@ -100,5 +99,4 @@ $(document).ready(function(){
 		$(".essay5").fadeIn( 2000 );
 
 	});
-	*/
 });
