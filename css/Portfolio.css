@@ -500,6 +500,14 @@ h3{
 	height: 30vw;
 }
 
+#frame {
+	position:absolute;
+	top:-13vw;
+	right:-13vw;
+	width: 20vw;
+	height: 40vw;
+}
+
 .Graphic{
 	width:90%;
 	height:135vw;
