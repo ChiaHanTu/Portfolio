@@ -790,7 +790,7 @@ footer{
 	nav ul li a{
 		text-align: right;
 		padding: 1vh 5vw 0 0 ;
-		font-size:1vw;
+		font-size:2vw;
 		width:36vw;
 		line-height:3vh;
 		color:#333333;
@@ -813,9 +813,9 @@ footer{
 
 	nav ul li ul{
 	    position:absolute;
-		display:none;
-		left:0;
-		width:80vw;
+	    display:none;
+	    left:0;
+            width:80vw;
 	    height:10vh;
 	}
 
@@ -828,7 +828,7 @@ footer{
 
 
 	nav ul li ul a:hover{
-		color:#808080;
+	    color:#808080;
 	}
 
 
