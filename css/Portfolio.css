@@ -861,6 +861,8 @@ footer{
 		position: relative;
 		top: 2vh;
 		left: 3vw;
+		width:30vw;
+		height:10vh;
 	}
 
 	section{
