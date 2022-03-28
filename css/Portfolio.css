@@ -859,7 +859,7 @@ footer{
 
 	.num{
 		position: relative;
-		top: 1vh;
+		top: 2vh;
 		left: 3vw;
 	}
 
@@ -906,10 +906,10 @@ footer{
 
 	.slogan{
 		width:70%;
-		top:62%;
-		left:16%;
+		top:50%;
+		left:20%;
 		text-align: justify;
-		font-size: 1vw;
+		font-size: 3vw;
 	
 	}
 
@@ -919,7 +919,7 @@ footer{
 		}
 		to{
 			opacity:1;
-			font-size:1.8vw;
+			font-size:3.2vw;
 		}
 	}
 /*
