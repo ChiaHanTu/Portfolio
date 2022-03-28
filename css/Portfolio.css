@@ -922,8 +922,9 @@ footer{
 			font-size:3.2vw;
 		}
 	}
-/*
+
 	.about{
+		display:none;
 		font-size: 1.3vw;
 		width:35%;
 		top:75%;
@@ -952,7 +953,7 @@ footer{
 		display: none;
 		width:2vw;
 	}
-
+/*
 	.work{
 		display: block;
 		width: 20%;
