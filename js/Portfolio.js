@@ -1,12 +1,10 @@
 $(document).ready(function(){
 
-	$(".mobile-nav-icon").click(function(){ 
+    const view = document.body.clientWidth;
+    if(view >= 768) $("nav").show(); else $("nav").hide();
+
+    $(".mobile-nav-icon").click(function(){ 
         $("nav").slideToggle();    
-    });
-    
-    $(window).on('load resize',function(){
-        var a_w = document.body.clientWidth;
-        if(a_w >= 768) $("nav").show(); else $("nav").hide();
     });
 
      //group
@@ -14,4 +12,10 @@ $(document).ready(function(){
         openEffect  : 'fade', //'elastic', 'fade' or 'none'
         closeEffect : 'none'
     });
+
+});
+
+$(window).on('resize', function(){
+    const view = document.body.clientWidth;
+    if(view >= 768) $("nav").show(); else $("nav").hide();
 });
